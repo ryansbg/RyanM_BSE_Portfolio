@@ -32,7 +32,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-For my first milestone, I experimented with and learned about all the parts included in the Super Starter Kit
+For my first milestone, I experimented with and learned about all the parts included in the Super Starter Kit. Since this was my first experience with coding and using a breadboard, I spent a significant amount of time learning about the code and how to use the breadboard. The goal of my first milestone was to complete the base product, and I did that. I completed my build of an MQ135 air quality monitor with an OLED display, and troubleshot coding issues regarding resistor variable values in the MQ135 to finalize the code. A challenge I'm sure I will face in future milestones is that I will have to be careful when combining the code for different parts like the LED and Active Buzzer with the code for the base AQ monitor. I'm sure this will pose a challenge for me. My plan for the second milestone is to have somewhat of a working prototype for my final product, with an LED and Active Buzzer connected to the base product and somewhat working.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j5LZdaHLu88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
