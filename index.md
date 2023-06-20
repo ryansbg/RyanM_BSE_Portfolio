@@ -63,9 +63,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Arduino UNO Rev3 | Write and run code to deliver to connected devices | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Solderless Breadboard | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Solderless Breadboard | Used to create temporary circuits and to connect electrical components together | $9.99 (3pcs) | <a href="https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G/ref=asc_df_B01EV6LJ7G?tag=bingshoppinga-20&linkCode=df0&hvadid=80539278509443&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584138857801087&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| OLED SSD1306 128x64 LCD Display | Used to display ppm values detected by air quality monitor | $8 | <a href="(https://www.walmart.com/ip/0-96-OLED-SSD1306-I2C-IIC-SPI-Serial-128X64-LCD-Display-Gelb-Blau-LCD-5Q8K-C9H1/1079180220?wmlspartner=wlpa&selectedSellerId=101255994&adid=22222222222000000000&wmlspartner=wmtlabs&wl0=e&wl1=o&wl2=c&wl3=10352200394&wl4=pla-1103028060075:aud-813964392&wl5=&wl6=&wl7=&wl10=Walmart&wl11=Online&wl12=1079180220_10001275354&wl14=SSD1306%20128x64%20OLED%20LCD&veh=sem&gclid=9207663575fc180c1add02a50be3edbd&gclsrc=3p.ds&msclkid=9207663575fc180c1add02a50be3edbd)"> Link </a> |
+| OLED SSD1306 128x64 LCD Display | Used to display ppm values detected by air quality monitor | $8 | <a href="https://www.walmart.com/ip/0-96-OLED-SSD1306-I2C-IIC-SPI-Serial-128X64-LCD-Display-Gelb-Blau-LCD-5Q8K-C9H1/1079180220?wmlspartner=wlpa&selectedSellerId=101255994&adid=22222222222000000000&wmlspartner=wmtlabs&wl0=e&wl1=o&wl2=c&wl3=10352200394&wl4=pla-1103028060075:aud-813964392&wl5=&wl6=&wl7=&wl10=Walmart&wl11=Online&wl12=1079180220_10001275354&wl14=SSD1306%20128x64%20OLED%20LCD&veh=sem&gclid=9207663575fc180c1add02a50be3edbd&gclsrc=3p.ds&msclkid=9207663575fc180c1add02a50be3edbd"> Link </a>|
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
