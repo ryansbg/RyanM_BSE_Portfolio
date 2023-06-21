@@ -37,6 +37,8 @@ For my first milestone, I experimented with and learned about all the parts incl
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j5LZdaHLu88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
+Milestone 2 Schematic (Base Product + LED/Buzzer)
+![Headstone Image](MS2_Schematic.svg)
 Milestone 1 Schematic (Base Product)
 ![Headstone Image](MS1_Schematic.svg)
 
