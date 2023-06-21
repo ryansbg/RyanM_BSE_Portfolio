@@ -37,11 +37,14 @@ For my first milestone, I experimented with and learned about all the parts incl
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j5LZdaHLu88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
+Milestone 3 Final Schematic (Base Product + LED/Buzzer/Temp and Humidity Module)
+![Headstone Image](MS3_Schematic.svg)
 Milestone 2 Schematic (Base Product + LED/Buzzer)
 ![Headstone Image](MS2_Schematic.svg)
 Milestone 1 Schematic (Base Product)
 ![Headstone Image](MS1_Schematic.svg)
-
+Schematics Notes:
+Tinkercad did not have a lot of the parts I used, so I did my best to replace them with the parts it had. The Temperature Sensor in the schematic is actually the DHT11 Temperature and Humidity Module, which is why the pins are rearranged (power and data pin are switched), the Gas Sensor is the MQ135 Air Quality Module (ignore the bottom three pins on the gas sensor), and the large OLED display is actually a smaller OLED display with only four pins that connect to analog pins on the Arduino, which is why there is only four connected in the schematic. Also, the piezo is the active buzzer, and the setup of the actual product is a little bit different than the schematic.
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
