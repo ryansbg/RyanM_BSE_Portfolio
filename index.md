@@ -73,8 +73,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [MQ135 Code and Setup Help](https://steemit.com/utopian-io/@cha0s0000/arduino-basics-tutorials-use-mq135-air-quality-detecting-module)
+- [Coding Help for Milestone 1](https://arduino.stackexchange.com/questions/26832/how-do-i-convert-a-float-into-char)
+- [Understanding OLED Display](https://www.youtube.com/watch?v=rxjIXVwgY50)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
