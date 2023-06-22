@@ -52,19 +52,159 @@ Milestone 1 Schematic (Base Product)
 Schematics Notes:
 Tinkercad did not have a lot of the parts I used, so I did my best to replace them with the parts it had. The Temperature Sensor in the schematic is actually the DHT11 Temperature and Humidity Module, which is why the pins are rearranged (power and data pin are switched), the Gas Sensor is the MQ135 Air Quality Module (ignore the bottom three pins on the gas sensor), and the large OLED display is actually a smaller OLED display with only four pins that connect to analog pins on the Arduino, which is why there is only four connected in the schematic. Also, the piezo is the active buzzer, and the setup of the actual product is a little bit different than the schematic.
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
 ```c++
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <dht_nonblocking.h>
+#include "MQ135.h" // For MQ135
+const int ANALOGPIN=0; // For MQ135
+MQ135 gasSensor = MQ135(ANALOGPIN); // For MQ135 
+int buzzer=12;
+int LED=7;
+static const int DHT_SENSOR_PIN = 2;
+#define DHT_SENSOR_TYPE DHT_TYPE_11
+DHT_nonblocking dht_sensor( DHT_SENSOR_PIN, DHT_SENSOR_TYPE );
+
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+
+// Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
+// The pins for I2C are defined by the Wire-library. 
+// On an arduino UNO:       A4(SDA), A5(SCL)
+// On an arduino MEGA 2560: 20(SDA), 21(SCL)
+// On an arduino LEONARDO:   2(SDA),  3(SCL), ...
+#define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
+#define SCREEN_ADDRESS 0x3C ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
 void setup() {
-  // put your setup code here, to run once:
+  pinMode(buzzer,OUTPUT);
+  pinMode(LED,OUTPUT);
   Serial.begin(9600);
-  Serial.println("Hello World!");
-}
 
+  // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
+  if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+    Serial.println(F("SSD1306 allocation failed"));
+    for(;;); // Don't proceed, loop forever
+  }
+}
+static bool measure_environment( float *temperature, float *humidity )
+{
+  static unsigned long measurement_timestamp = millis( );
+
+  /* Measure once every four seconds. */
+  if( millis( ) - measurement_timestamp > 1000ul )
+  {
+    if( dht_sensor.measure( temperature, humidity ) == true )
+    {
+      measurement_timestamp = millis( );
+      return( true );
+    }
+  }
+
+  return( false );
+}
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  float temperature;
+  float humidity;
+  if( measure_environment( &temperature, &humidity ) == true )
+  {
+    Serial.print( "T = " );
+    Serial.print( temperature, 1 );
+    Serial.print( " deg. C, H = " );
+    Serial.print( humidity, 1 );
+    Serial.println( "%" );
+  }
+  printtextTH(temperature,humidity);
+  printtext1();
+  delay(1000);
+  float ppm = gasSensor.getPPM();
+  Serial.println(ppm);
+  printtext2(ppm);
+  delay(1000);
+    if(ppm>1000){
+    makesound();
+    digitalWrite(LED, HIGH);
+    delay(250);
+    digitalWrite(LED, LOW);
+    delay(250);
+    digitalWrite(LED, HIGH);
+    delay(250);
+    digitalWrite(LED, LOW);
+    }
+    
 }
+  void printtextTH(float temperature,float humidity) {
+display.clearDisplay();
+display.setTextSize(2);
+display.setTextColor(WHITE);
+display.setCursor(0,10);
+display.print("Temp(C)=");
+display.print(temperature);
+display.display();
+delay(1000);
+display.clearDisplay();
+display.setTextSize(2);
+display.setTextColor(WHITE);
+display.setCursor(0,10);
+display.print("Humidity=");
+display.print(humidity);
+display.display();
+delay(1000);
+  }
+  void printtext1() {
+    display.clearDisplay();
+    display.setTextSize(2);
+    display.setTextColor(WHITE);
+    display.setCursor(0,10);
+    display.print("Air Quality=");
+    display.display();
+  }
+  void printtext2(float ppm) {
+    display.clearDisplay();
+    display.setTextSize(2);
+    display.setTextColor(WHITE);
+    display.setCursor(20,40);
+    display.print(ppm);
+    display.display();
+  }
+  void makesound() {
+    unsigned char k;
+  digitalWrite(buzzer,HIGH);
+  delay(100);
+  digitalWrite(buzzer,LOW);
+  delay(100);
+  digitalWrite(buzzer,HIGH);
+  delay(100);
+  digitalWrite(buzzer,LOW);
+  delay(100);
+  digitalWrite(buzzer,HIGH);
+  delay(100);
+  digitalWrite(buzzer,HIGH);
+  delay(100);
+  digitalWrite(buzzer,LOW);
+
+ {
+   //output an frequency
+   for(k=0;k<80;k++)
+   {
+    digitalWrite(buzzer,HIGH);
+    delay(1);//wait for 1ms
+    digitalWrite(buzzer,LOW);
+    delay(1);//wait for 1ms
+    }
+    //output another frequency
+     for(k=0;k<100;k++)
+      {
+        digitalWrite(buzzer,HIGH);
+        delay(2);//wait for 2ms
+        digitalWrite(buzzer,LOW);
+        delay(2);//wait for 2ms
+      }
+ }
+ }
 ```
 
 # Bill of Materials
