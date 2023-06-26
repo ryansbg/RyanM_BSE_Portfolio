@@ -5,9 +5,7 @@ My project is an Air Quality Monitor that includes a temperature and humidity mo
 |:--:|:--:|:--:|:--:|
 | Ryan M | Los Gatos High School | Electrical, Mechanical, Software Engineering | Incoming Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](IMG_6585.HEIC)
   
 # Final Milestone
 For my final milestone, my project ended successfully. Since my previous milestone, I added on a DHT11 Temperature and Humidity Module. I wrote code to display the values given back by the DHT11 on the OLED display, and in the product's loop, it now successfully displays Temperature in Celsius, Air Humidity, and Air Quality in PPM. Overall this was an amazing experience and has grown my passion for engineering immensely.
