@@ -1,4 +1,4 @@
-# Ryan M's Blue Stamp Project - Air Quality Monitor with Active Buzzer and LED Alert System
+# Air Quality Monitor with Temperature and Humidity Module and Active Buzzer and LED Alert System
 My project is an Air Quality Monitor that includes a temperature and humidity module, an OLED display to communicate to the user, and an LED and buzzer alert system for unhealthy air quality. This project was a challenge to finish because of my limited time to complete deliverables,  I would reccomend this program to anyone interested in engineering, no matter how new you are.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -221,7 +221,6 @@ delay(1000);
 |:--:|:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [MQ135 Code and Setup Help](https://steemit.com/utopian-io/@cha0s0000/arduino-basics-tutorials-use-mq135-air-quality-detecting-module)
 - [Coding Help for Milestone 1](https://arduino.stackexchange.com/questions/26832/how-do-i-convert-a-float-into-char)
 - [Understanding OLED Display](https://www.youtube.com/watch?v=rxjIXVwgY50)
