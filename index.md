@@ -15,7 +15,7 @@ For my final milestone, my project ended successfully. Since my previous milesto
 
 # Second Milestone
 For my second milestone, I learned about the challenging "if" commands in the Arduino software. I used this type of command to activate my 2 newest modifications: a red LED and an active buzzer. Using the "if" command to detect unhealthy air quality levels, the buzzer will sound and the LED will blink twice if the ppm value returned by the MQ135 is too high. I added on this LED and active buzzer to alert the user if the air quality is unhealthy. 2 challenges in this milestone were the integration of the active buzzer code into my main code, and also learning how to use the "if" commands. This milestone was a great success because I added on a practical modification that will passively alert the user while they go about their day to day life. For milestone 3, I plan to add a temperature and humidity module. Below are the components I used to modify my product in this milestone, a red LED, and an active buzzer (both photos by author).
-![Headstone Image](
+![Headstone Image](IMG_6594.png) 1[Headstone Image](IMG_6595.png)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qAPXvsQ0Ww4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
