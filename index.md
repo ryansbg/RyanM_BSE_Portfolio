@@ -3,9 +3,10 @@ My project is an Air Quality Monitor that includes a temperature and humidity mo
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Ryan M | Los Gatos High School | Electrical, Mechanical, Software Engineering | Incoming Sophomore
+| Ryan M | Los Gatos High School | Electrical, Mechanical, Software Engineering | Incoming Sophomore |
 
 ![Headstone Image](IMG_6589.PNG)
+Picture by Author
   
 # Final Milestone
 For my final milestone, my project ended successfully. Since my previous milestone, I added on a DHT11 Temperature and Humidity Module. I wrote code to display the values given back by the DHT11 on the OLED display, and in the product's loop, it now successfully displays Temperature in Celsius, Air Humidity, and Air Quality in PPM. Overall this was an amazing experience and has grown my passion for engineering immensely.
@@ -26,14 +27,17 @@ For my first milestone, I experimented with and learned about all the parts incl
 Milestone 3 Final Schematic (Base Product + LED/Buzzer/Temp and Humidity Module)
 
 ![Headstone Image](MS3_Schematic.png)
+Schematic by Author
 
 Milestone 2 Schematic (Base Product + LED/Buzzer)
 
 ![Headstone Image](MS2_Schematic.png)
+Schematic by Author
 
 Milestone 1 Schematic (Base Product)
 
 ![Headstone Image](MS1_Schematic.png)
+Schematic by Author
 
 Schematics Notes:
 Tinkercad did not have a lot of the parts I used, so I did my best to replace them with the parts it had. The Temperature Sensor in the schematic is actually the DHT11 Temperature and Humidity Module, which is why the pins are rearranged (power and data pin are switched), the Gas Sensor is the MQ135 Air Quality Module (ignore the bottom three pins on the gas sensor), and the large OLED display is actually a smaller OLED display with only four pins that connect to analog pins on the Arduino, which is why there is only four connected in the schematic. Also, the piezo is the active buzzer, and the setup of the actual product is a little bit different than the schematic.
