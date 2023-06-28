@@ -5,7 +5,7 @@ My project is an Air Quality Monitor that includes a temperature and humidity mo
 |:--:|:--:|:--:|:--:|
 | Ryan M | Los Gatos High School | Electrical, Mechanical, Software Engineering | Incoming Sophomore |
 
-![Headstone Image](IMG_6589.PNG)
+![Headstone Image](lnm6jeap.png)
 Picture by Author
   
 # Final Milestone
