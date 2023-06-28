@@ -9,7 +9,8 @@ My project is an Air Quality Monitor that includes a temperature and humidity mo
 Picture by Author
   
 # Final Milestone
-For my final milestone, my project ended successfully. Since my previous milestone, I added on a DHT11 Temperature and Humidity Module. I wrote code to display the values given back by the DHT11 on the OLED display, and in the product's loop, it now successfully displays Temperature in Celsius, Air Humidity, and Air Quality in PPM. Overall this was an amazing experience and has grown my passion for engineering immensely.
+For my final milestone, my project ended successfully. Since my previous milestone, I added on a DHT11 Temperature and Humidity Module. I wrote code to display the values given back by the DHT11 on the OLED display, and in the product's loop, it now successfully displays Temperature in Celsius, Air Humidity, and Air Quality in PPM. My biggest challenges at BSE were the unfamiliarity of the code I was working with, and my lack of time because of my schedule. My biggest triumphs were understanding that code and getting ahead of my project duties despite my time disadvantages. Learning about coding, electronics, and software continued to kindle my passion for engineering, and overall this was an amazing experience. In the future, I hope to further pursue this newfound intrest in coding and electronics, and continue to further my already raging intrest for mechanical engineering.  Below is the component used to modify my product in this milestone, the DHT11 Temperature and Humidity Sensor Module (photo by author).
+![Headstone Image]
 
 
 
