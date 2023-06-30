@@ -1,5 +1,5 @@
 # Air Quality Monitor with Temperature and Humidity Module and Active Buzzer and LED Alert System
-My project is an Air Quality Monitor that includes a temperature and humidity module, an OLED display to communicate to the user, and an LED and buzzer alert system for unhealthy air quality. This project was a challenge to finish because of my limited time to complete deliverables,  I would reccomend this program to anyone interested in engineering, no matter how new you are.
+My project is an Air Quality Monitor that includes a temperature and humidity module, an OLED display to communicate to the user, and an LED and buzzer alert system for unhealthy air quality. This project was a challenge to finish because of my limited time to complete deliverables, but it was certainly fun. I would reccomend this program to anyone interested in engineering, no matter how new you are.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
