@@ -7,7 +7,7 @@ My project was based off an air quality monitor, which was the base product I pi
 | Ryan M | Los Gatos High School | Electrical, Mechanical, Software Engineering | Incoming Sophomore |
 
 ![Headstone Image](lnm6jeap.png)
-Picture by Author
+Photo by Author
   
 # Final Milestone
 For my final milestone, my project ended successfully. Since my previous milestone, I added on a DHT11 Temperature and Humidity Module. I wrote code to display the values given back by the DHT11 on the OLED display, and in the product's loop, it now successfully displays Temperature in Celsius, Air Humidity, and Air Quality in PPM. My biggest challenges at BSE were the unfamiliarity of the code I was working with, and my lack of time because of my schedule. My biggest triumphs were understanding that code and getting ahead of my project duties despite my time disadvantages. Learning about coding, electronics, and software continued to kindle my passion for engineering, and overall this was an amazing experience. In the future, I hope to further pursue this newfound intrest in coding and electronics, and continue to further my already raging intrest for mechanical engineering.  Below is the component used to modify my product in this milestone, the DHT11.
@@ -19,16 +19,20 @@ Temperature and Humidity Sensor Module (photo by author)
 
 # Second Milestone
 For my second milestone, I learned about the challenging "if" commands in the Arduino software. I used this type of command to activate my 2 newest modifications: a red LED and an active buzzer. Using the "if" command to detect unhealthy air quality levels, the buzzer will sound and the LED will blink twice if the ppm value returned by the MQ135 is too high. I added on this LED and active buzzer to alert the user if the air quality is unhealthy. 2 challenges in this milestone were the integration of the active buzzer code into my main code, and also learning how to use the "if" commands. This milestone was a great success because I added on a practical modification that will passively alert the user while they go about their day to day life. For milestone 3, I plan to add a temperature and humidity module. Below are the components I used to modify my product in this milestone, a red LED, and an active buzzer.
-![Headstone Image](IMG_6594.png) ![Headstone Image](IMG_6595.png)
-(Photos by Author)
+![Headstone Image](IMG_6594.png) 
+Red LED (photo by Author)
+![Headstone Image](IMG_6595.png)
+Active Buzzer (photo by Author)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qAPXvsQ0Ww4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
 # First Milestone
 For my first milestone, I experimented with and learned about all the parts included in the Super Starter Kit. Since this was my first experience with coding and using a breadboard, I spent a significant amount of time learning about the code and how to use the breadboard. The goal of my first milestone was to complete the base product, and I did that. I completed my build of an MQ135 air quality monitor with an OLED display, and troubleshot coding issues regarding resistor variable values in the MQ135 to finalize the code. A challenge I'm sure I will face in future milestones is that I will have to be careful when combining the code for different parts like the LED and Active Buzzer with the code for the base AQ monitor. I'm sure this will pose a challenge for me. My plan for the second milestone is to have somewhat of a working prototype for my final product, with an LED and Active Buzzer connected to the base product and somewhat working. Below are the main components, the air quality module and the OLED display.
-![Headstone Image](IMG_6590.png) ![Headstone Image](IMG_6592.png)
-MQ135 (flying fish), OLED display (photos by Author)
+![Headstone Image](IMG_6590.png) 
+MQ135 (photo by Author)
+![Headstone Image](IMG_6592.png)
+OLED display (photo by Author)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j5LZdaHLu88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
@@ -219,7 +223,7 @@ delay(1000);
 |:--:|:--:|:--:|:--:|:--:|
 | USB A to B cable | 1 | Connect Arduino to Computer/Power Source | $3.89 | <a href="https://www.amazon.com/Monoprice-6-Feet-24AWG-Plated-105438/dp/B003BXPQF2/ref=sr_1_5?keywords=usb+b+cable&qid=1687461572&sr=8-5"> Amazon </a> |
 |:--:|:--:|:--:|:--:|:--:|
-| MQ135 Air Quality Module | 1 | Take readings of the air and send back results in ppm to serial monitor | $4.00 | <a href="https://www.amazon.com/Generic-Quality-Hazardous-Detection-PromotionHot/dp/B0BQJ1S5W8/ref=sr_1_5?crid=1B0IKO8NDWSJS&keywords=MQ135&qid=1687461870&s=hi&sprefix=mq135%2Ctools%2C187&sr=1-5"> Amazon </a> |
+| MQ135 Air Quality Module | 1 | Take readings of the air and send back results in PPM to serial monitor | $4.00 | <a href="https://www.amazon.com/Generic-Quality-Hazardous-Detection-PromotionHot/dp/B0BQJ1S5W8/ref=sr_1_5?crid=1B0IKO8NDWSJS&keywords=MQ135&qid=1687461870&s=hi&sprefix=mq135%2Ctools%2C187&sr=1-5"> Amazon </a> |
 |:--:|:--:|:--:|:--:|:--:|
 | M to M Jumper Wires | 13 | Carry electricity across devices and power breadboard | $7.99 (130 pcs) | <a href="https://www.amazon.com/ELEGOO-Solderless-Flexible-Breadboard-Compatible/dp/B09ZQP9LB6/ref=sr_1_5?crid=3RGCMEDTAC3H&keywords=Male+to+male+jumper+wire&qid=1687462127&sprefix=male+to+male+jumper+wir%2Caps%2C165&sr=8-5"> Amazon </a> |
 |:--:|:--:|:--:|:--:|:--:|
@@ -234,7 +238,7 @@ delay(1000);
 | DHT11 Temperature Humidity Sensor Module | 1 | Measure the surrounding air's temperature and humidity | $7.99 (5 pcs) | <a href="https://www.amazon.com/JESSINIE-DHT11-Temperature-Environmental-Induction/dp/B0BLGZN1P4/ref=sr_1_17_sspa?adgrpid=1335907190792181&hvadid=83494440368005&hvbmt=bp&hvdev=c&hvlocphy=86043&hvnetw=o&hvqmt=p&hvtargid=kwd-83494540054072%3Aloc-190&hydadcr=19937_13386698&keywords=dht11+humidity+and+temperature+sensor&qid=1687464135&sr=8-17-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1"> Amazon </a> |
 |:--:|:--:|:--:|:--:|:--:|
 
-# Other Resources/Examples
-- [MQ135 Code and Setup Help](https://steemit.com/utopian-io/@cha0s0000/arduino-basics-tutorials-use-mq135-air-quality-detecting-module)
+# Works Consulted
+- [MQ135 Code and Setup Help](https://steemit.com/utopian-io/@cha0s0000/arduino-basics-tutorials-use-mq135-air-quality-detecting-module) - 
 - [Coding Help for Milestone 1](https://arduino.stackexchange.com/questions/26832/how-do-i-convert-a-float-into-char)
 - [Understanding OLED Display](https://www.youtube.com/watch?v=rxjIXVwgY50)
