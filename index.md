@@ -239,6 +239,6 @@ delay(1000);
 |:--:|:--:|:--:|:--:|:--:|
 
 # Works Consulted
-- [MQ135 Code and Setup Help](https://steemit.com/utopian-io/@cha0s0000/arduino-basics-tutorials-use-mq135-air-quality-detecting-module) - 
-- [Coding Help for Milestone 1](https://arduino.stackexchange.com/questions/26832/how-do-i-convert-a-float-into-char)
-- [Understanding OLED Display](https://www.youtube.com/watch?v=rxjIXVwgY50)
+- [MQ135 Code and Setup Help](https://steemit.com/utopian-io/@cha0s0000/arduino-basics-tutorials-use-mq135-air-quality-detecting-module) - I consulted this website for help with solving my problem of elevated readings in Milestone 1. This website provided me with a different test code to run to fix my problem.
+- [Coding Help for Milestone 1](https://arduino.stackexchange.com/questions/26832/how-do-i-convert-a-float-into-char) - I consulted this website for help understanding "float" and "char" data types all of my milestones. These data types were important to understand for redirecting serial monitor output. 
+- [Understanding OLED Display](https://www.youtube.com/watch?v=rxjIXVwgY50) - This video was extremely helpful to consult, because I was not provided with instructions on how to use the OLED display. This video was important in my challenge to display the air quality and temperature and humidity.
